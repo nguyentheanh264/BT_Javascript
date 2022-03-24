@@ -12,31 +12,6 @@ styles.splice(styles.length - 1,0,"Rap","Reggage")
 console.log(styles);
 
 
-// B2: 
-function sumInput() {
-    let arr = [];
-    let input1 = prompt("Hãy nhập số a: ","");
-    let input2 = prompt("Hãy nhập số b: ","");
-    let inputNumber1 = Number(input1)
-    let inputNumber2 = Number(input2)
-    if (inputNumber1, inputNumber2 != null && inputNumber1, inputNumber2 != NaN) {
-        alert('Bạn đã nhập số: ' + input1 + ' và ' + input2);
-        arr.unshift(inputNumber1, inputNumber2)
-        console.log(typeof inputNumber1, typeof inputNumber2 );
-
-    } else {
-        return alert('Bạn đã nhập sai') 
-    }
-    console.log(arr);
-
-    let sumArr = arr.reduce((initialValue, currentValue) => {
-        return initialValue += currentValue
-    },0)
-    console.log('sumArr = ', sumArr);
-    
-
-}
-sumInput()
 
 
 // B3: 
